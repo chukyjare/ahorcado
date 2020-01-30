@@ -42,7 +42,7 @@ public class Ahorcado {
 	}
 
 	private  int incrementarFallo() {
-		return ++this.numeroFallos;
+		return this.numeroFallos++;
 	}
 
 	/**
